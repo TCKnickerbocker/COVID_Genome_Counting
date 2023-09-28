@@ -11,7 +11,7 @@ python3 plot_codons.py <control_csv_filename> <new_csv_filename>
 
 #### - **codon_table.txt**: A simple table mapping codons to the amino acids they form
 
-![Amino Acid Frequency Plot](amino_acid_freq_plot.jpg)
-![Codon Frequency Plot](window_comparison.jpg)
+![Amino Acid Frequency Plot](amino_acid_freq_plot.png)
+![Codon Frequency Plot](window_comparison.png)
 
 Note how the frequency plots display vastly different counts for stop codons (producing the stop amino acid). This can be owed to the nature of the input files provided in this repository - one has a random window of bases from the genome, while the other has bases which are used in functional genes the genome actually produces.
